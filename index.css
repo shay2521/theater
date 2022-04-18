@@ -1,0 +1,111 @@
+body, html{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 0 30px;
+}
+
+/* jumbotron */
+#cover_image{
+    height: auto;
+    width: 100%;
+}
+
+#cover_image_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.main{
+    background-color: white;
+    color: black;
+}
+
+#date{
+    background-color: rgb(236, 236, 236);
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    padding: 0px 50px;
+    font-weight: bold;
+}
+
+.feature_item{
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.feature_item ul{
+    list-style-type: none;
+}
+
+.feature_item img{
+    width: 200px;
+    height: auto;
+}
+
+.button{
+    height: 50px;
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+    color: white;
+    background-color: orange;
+    border: 1px solid rgb(201, 130, 0);
+    border-radius: 2px;
+}
+
+.foot{
+    height: auto;
+    background-color: black;
+    color: white;
+    align-content: center;
+    padding: 90px;
+}
+
+.foot ul{
+    list-style-type: none;
+}
+
+.foot li{
+    padding-bottom: 50px;
+    font-size: 12px;
+}
+
+.foot a{
+    text-decoration: none;
+    color: white;
+}
+
+i{
+    margin-right: 10px;
+    color: orange;
+    font-size: 30px;
+}
